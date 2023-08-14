@@ -27,3 +27,6 @@
 hs_err_pid*
 replay_pid*
 .idea/inspectionProfiles/Project_Default.xml
+
+#idea
+.idea
