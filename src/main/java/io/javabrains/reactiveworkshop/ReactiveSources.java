@@ -39,6 +39,11 @@ public class ReactiveSources {
                 .delayElement(Duration.ofSeconds(1));
     }
 
+    public static Mono<String> stringMono() {
+        return Mono.just("This is a Mono")
+                .delayElement(Duration.ofSeconds(1));
+    }
+
     public static Flux<User> userFlux() {
         return Flux.just(
                 new User(1, "Lionel", "Messi"),
